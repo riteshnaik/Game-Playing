@@ -16,24 +16,9 @@ X: Black player
 O: White Player
 
 Greedy Output:
-********
-********
-***X****
-***XX***
-***XO***
-********
-********
-********
+<next state>
 
 Minimax Output:
-********
-********
-***X****
-***XX***
-***XO***
-********
-********
-********
 Node,Depth,Value
 root,0,-Infinity
 d3,1,Infinity
