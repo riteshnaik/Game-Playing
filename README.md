@@ -30,7 +30,10 @@ O: White Player
 \<next state\>  
 \<traverse log\>  
 **The Minimax traverse log has 3 columns. Each column is separated by “,”. Three columns are node, depth and value.**  
-**Node:** is the node name which refers to the move that is made by the agent.There are two **special node names:** **root** and **pass**. **root** is the name for the root node. **pass** is the name for the special move **pass**. Agent can make the pass move only when it cannot make any valid move.
+**Node:** is the node name which refers to the move that is made by the agent.There are two **special node names:** **root** and **pass**. **root** is the name for the root node. **pass** is the name for the special move **pass**. Agent can make the pass move only when it cannot make any valid move.  
+**Depth:** is the depth of the node. The root node has depth zero.  
+**Value:** is the value of the node. The value is initialized to **-Infinity** for the max node and **Infinity** for the min node. The value will be updated when its children return the value to the node. The value of leaf nodes is the
+evaluated value.  
 *Example:*  
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
@@ -86,7 +89,7 @@ root,0,-3
 \*\*\***XO**\*\*\*  
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
-\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*  
 Node,Depth,Value,Alpha,Beta  
 root,0,-Infinity,-Infinity,Infinity  
 d3,1,Infinity,-Infinity,Infinity  
