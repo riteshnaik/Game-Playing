@@ -30,7 +30,7 @@ O: White Player
 \<next state\>  
 \<traverse log\>  
 
-**Output Description:**  
+**Min-Max Traverse Log Description:**  
 The Minimax traverse log has 3 columns. Each column is separated by “,”. Three columns are **node, depth and value.**  
 **Node:** is the node name which refers to the move that is made by the agent.There are two **special node names:** **root** and **pass**. **root** is the name for the root node. **pass** is the name for the special move **pass**. Agent can make the pass move only when it cannot make any valid move.  
 **Depth:** is the depth of the node. The root node has depth zero.  
@@ -85,7 +85,7 @@ root,0,-3
 \<next state\>  
 \<traverse log\>  
 
-**Output Description:**  
+**Alpha-Beta Traverse Log Description:**  
 The Alpha-Beta traverse log has 5 columns. Each column is separated by “,”. Five columns are **node, depth, value,alpha, and beta.** The description is same with the Minimax log.  
 
 *Example:*  
