@@ -28,7 +28,8 @@ O: White Player
 
 **Min-Max Output**  
 \<next state\>  
-\<traverse log\>  
+\<traverse log\>
+The Minimax traverse log has 3 columns. Each column is separated by “,”. Three columns are node, depth and value.  
 *Example:*  
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
