@@ -19,7 +19,6 @@ Greedy Output:
 <next state>
 
 Minimax Output:
-
 Node,Depth,Value
 root,0,-Infinity
 d3,1,Infinity
