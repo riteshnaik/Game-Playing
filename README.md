@@ -1,7 +1,7 @@
 Game-Playing
 ============
 
-Implementation of Greedy, Minimax and Alpha-Beta pruning algorithms with positional weight evaluation function to determine the next move for a player in the Reversi game.
+Implementation of **Greedy, Minimax and Alpha-Beta pruning algorithms** with **positional weight evaluation function** to determine the next move for a player in the **Reversi game**.
 
 The rules of the Reversi game can be found at http://en.wikipedia.org/wiki/Reversi and interactive examples can be found at http://www.samsoft.org.uk/reversi/.
 
@@ -26,11 +26,11 @@ O: White Player
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
 
-**Min-Max Output**  
+**MiniMax Output**  
 \<next state\>  
 \<traverse log\>  
 
-**Min-Max Traverse Log Description:**  
+**MiniMax Traverse Log Description:**  
 The Minimax traverse log has 3 columns. Each column is separated by “,”. Three columns are **node, depth and value.**  
 **Node:** is the node name which refers to the move that is made by the agent.There are two **special node names:** **root** and **pass**. **root** is the name for the root node. **pass** is the name for the special move **pass**. Agent can make the pass move only when it cannot make any valid move.  
 **Depth:** is the depth of the node. The root node has depth zero.  
