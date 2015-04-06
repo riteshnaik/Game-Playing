@@ -8,7 +8,7 @@ The rules of the Reversi game can be found at http://en.wikipedia.org/wiki/Rever
 
 Input file format:  
 <task#> Greedy = 1, MiniMax = 2, Alpha-beta = 3  
-<your player: X or O>  
+\<your player: X or O\>  
 <cutting off depth >  
 <current state as follows:>  
 *: blank cell  
