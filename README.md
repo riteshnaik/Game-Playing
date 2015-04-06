@@ -29,7 +29,8 @@ O: White Player
 **Min-Max Output**  
 \<next state\>  
 \<traverse log\>  
-**The Minimax traverse log has 3 columns. Each column is separated by “,”. Three columns are node, depth and value.**    
+**The Minimax traverse log has 3 columns. Each column is separated by “,”. Three columns are node, depth and value.**  
+**Node:** is the node name which refers to the move that is made by the agent.There are two **special node names:** **root** and **pass**. **root** is the name for the root node. **pass** is the name for the special move **pass**. Agent can make the pass move only when it cannot make any valid move.
 *Example:*  
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
