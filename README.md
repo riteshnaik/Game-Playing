@@ -26,10 +26,10 @@ O: White Player
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
 
-**Min-Max Output ** 
-\<next state\> 
-\<traverse log\>
-*Example:*
+**Min-Max Output **  
+\<next state\>  
+\<traverse log\>  
+*Example:*  
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
 \*\*\*X\*\*\*\*  
