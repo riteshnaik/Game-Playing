@@ -29,11 +29,14 @@ O: White Player
 **Min-Max Output**  
 \<next state\>  
 \<traverse log\>  
+
+**Output Description:**  
 **The Minimax traverse log has 3 columns. Each column is separated by “,”. Three columns are node, depth and value.**  
 **Node:** is the node name which refers to the move that is made by the agent.There are two **special node names:** **root** and **pass**. **root** is the name for the root node. **pass** is the name for the special move **pass**. Agent can make the pass move only when it cannot make any valid move.  
 **Depth:** is the depth of the node. The root node has depth zero.  
 **Value:** is the value of the node. The value is initialized to **-Infinity** for the max node and **Infinity** for the min node. The value will be updated when its children return the value to the node. The value of leaf nodes is the
 evaluated value.  
+
 *Example:*  
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
@@ -81,6 +84,10 @@ root,0,-3
 **Alpha-Beta Output**  
 \<next state\>  
 \<traverse log\>  
+
+**Output Description:**  
+The Alpha-Beta traverse log has 5 columns. Each column is separated by “,”. Five columns are **node, depth, value,alpha, and beta.** The description is same with the Minimax log.  
+
 *Example:*  
 \*\*\*\*\*\*\*\*  
 \*\*\*\*\*\*\*\*  
@@ -120,4 +127,3 @@ e6,1,0,-3,0
 f6,2,-3,-3,0  
 e6,1,-3,-3,-3  
 root,0,-3,-3,Infinity  
-
