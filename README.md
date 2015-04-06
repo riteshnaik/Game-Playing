@@ -13,3 +13,15 @@ The rules of the Reversi game can be found at http://en.wikipedia.org/wiki/Rever
 *: blank cell  
 X: Black player 
 O: White Player  
+
+**Greedy Output**  
+\<next state\>  
+Example:  
+\*\*\*\*\*\*\*\*  
+\*\*\*\*\*\*\*\*  
+\*\*\*X\*\*\*\*  
+\*\*\*XX\*\*\*  
+\*\*\*XO\*\*\*  
+\*\*\*\*\*\*\*\*  
+\*\*\*\*\*\*\*\*  
+\*\*\*\*\*\*\*\*  
